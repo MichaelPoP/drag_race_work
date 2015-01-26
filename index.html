@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Racin' Time</title>
+	<link rel="stylesheet" href="motion.css">
+	<script src="app.js"></script>
+</head>
+<body>
+	<div id="yeOlCarriageRace" class="writing">Ye Ol' Carriage Race</div>
+	<div id="instructions" class="writing">Welcome to the crazy world of carriage racing! <br>To bridle your first horse, press Enter <br>To trot forward, press the Right Arrow <br>To switch to a stronger horse, press the Spacebar <br>Your first horse will only tire and become switchable once the                race begins</div>
+	<div id="ChristmasTree">
+		<div id="preStageLights">
+			<div class="lights preStage" id = "preFirst"></div>
+			<div class="lights preStage"></div>
+			<div class="lights preStage" id = "preThird"></div>
+			<div class="lights preStage"></div>
+		</div>
+		<div id="stageLights">
+			<div class="lights stage" id = "stageFirst"></div>
+			<div class="lights stage"></div>
+			<div class="lights stage" id = "stageThird"></div>
+			<div class="lights stage"></div>
+		</div>
+		<div id="row1Lights" class = "yRow">
+			<div class="lights r1" id = "r1f"></div>
+			<div class="lights r1"></div>
+		</div>
+		<div id="row2Lights" class = "yRow">
+			<div class="lights r2" id = "r2f"></div>
+			<div class="lights r2"></div>
+		</div>
+		<div id="row3Lights" class = "yRow">
+			<div class="lights r3" id = "r3f"></div>
+			<div class="lights r3"></div>
+		</div>
+		<div id="row4Lights" class = "yRow green">
+			<div class="lights r4" id = "r4f"></div>
+			<div class="lights r4"></div>
+		</div>
+		<div id="row5Lights">
+			<div class="lights r5" id = "r5f"></div>
+			<div class="lights r5"></div>
+		</div>
+	</div>
+	<div id="indicators">
+		<div id="rpm">
+			<div id = "rpmHeader" class = "writing">Horse Exhaustion</div>
+			<div id = "rpmValue" class = "writing">0</div>
+			<div id = "rpmInstruction" class = "writing">At 15, swap for a faster horse!</div>
+		</div>
+		<div id="gear" class="writing">
+			<div id="gearHeader" class = "writing">Horse Strength</div>
+			<div id="gearValue" class = "writing">1</div>
+		</div>
+	</div>
+	<div id="track">
+		<div class="treeLine" id = "tree1"></div>
+		<div id="carriage"><img src="carriage.png" height="80px" width="80px"></div>
+		<div class="treeLine" id = "tree2"></div>
+		<div class="treeLine" id = "tree3"></div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,208 @@
+#ChristmasTree {
+	position: absolute;
+	top: 0px;
+	left: 37%;
+	height: 350px;
+	width: 370px;
+	background-image: url("./images/bigTree.png");
+	background-size: 100% 100%;
+}
+
+.lights {
+	position: relative;
+	height: 20px;
+	width: 20px;
+	/*background-color: red;*/
+	display: inline-block;
+	border-radius: 17px;
+	border: 2px solid black;
+}
+
+.start div{
+	background-color: yellow;
+}
+
+.green.start div{
+	background-color: green;
+}
+
+.go div{
+	background-color: green;
+}
+
+.falseStart div{
+	background-color: red;
+}
+
+.preStage {
+	margin-top: 30px;
+	background-color: yellow;
+}
+
+#preFirst {
+	margin-left: 122px
+}
+
+#preThird {
+	margin-left: 8px;
+}
+
+#stageFirst {
+	margin-top: 10px;
+	margin-left: 65px;
+}
+
+#stageThird {
+margin-left: 110px;
+}
+
+#r1f {
+	margin-top: 10px;
+	margin-left: 15px;
+	margin-right: 250px;
+}
+
+#r2f {
+	margin-left: 20px;
+	margin-right: 272px;
+}
+
+#r3f {
+	margin-top: 5px;
+	margin-left: 7px;
+	margin-right: 310px;
+}
+
+#r4f {
+	margin-top: 10px;
+	margin-right: 300px;
+}
+
+#r5f {
+	margin-top: 10px;
+	margin-left: 45px;
+	margin-right: 247px;
+}
+
+#track {
+	position: absolute;
+	width: 100%;
+	height: 120px;
+	border-bottom: 3px solid gray;
+	top: 370px;
+	left: 0%;
+}
+
+
+#carriage {
+	position: relative;
+	height: 50px;
+	width: 50px;
+	top: 37px;	
+	left: 30px;
+	z-index: 2;
+}
+
+/* -------------------------------- Tree Stuff ---------------------- */
+.treeLine {
+	position: absolute;
+	height: 175px;
+	width: 70px;
+	background-image: url("./images/lineTree.jpg");
+	background-size: 100% 100%;
+	top: -55px;
+	z-index: 1;
+}
+
+#tree1 {
+	left: 100px;
+}
+
+#tree2 {
+	left: 230px;
+}
+
+#tree3 {
+	left: 1140px;
+}
+
+/* --------------------------------- Game Text ----------------------- */
+#yeOlCarriageRace {
+	position: absolute;
+	height: 40px;
+	width: 200px;
+	top: 20px;
+	left: 30px;
+	font-size: 1.2em;
+}
+
+#instructions {
+	position: absolute;
+	height: 50px;
+	width: 400px;
+	top: 20px;
+	left: 850px;
+	text-align: left;
+}
+
+#rpm {
+	position: absolute;
+	height: 150px;
+	width: 250px;
+	top: 110px;
+	left: 90px;
+}
+
+.writing {
+	color: #909191;
+	text-align: center;
+	width: 100%;
+	font-style: italic;
+}
+
+#rpmHeader {
+	font-size: 1.5em;
+	margin-top: 20px;
+}
+
+#rpmValue {
+	font-size: 2em;
+	font-weight: bold;
+	margin-top: 18px;
+}
+
+#rpmInstruction {
+	font-size: 1.1em;
+	margin-top: 18px;
+}
+
+#gear {
+	position: absolute;
+	height: 120px;
+	width: 250px;
+	top: 115px;
+	left: 940px;
+}
+
+#gearHeader {
+	font-size: 1.5em;
+	margin-top: 25px;
+}
+
+#gearValue {
+	margin-top: 18px;
+	font-size: 2em;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
